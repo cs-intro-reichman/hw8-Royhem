@@ -171,9 +171,10 @@ public class Network {
        //// Replace the following statement with your code
        /// 
        /// 
-       String ans=" ";
+        String ans = "Network:";
        for (int i = 0; i < userCount; i++) {
-            ans=users[i].toString();
+        
+            ans += "\n" + users[i].toString();
         
     
        }
