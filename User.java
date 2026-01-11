@@ -102,16 +102,14 @@
          /// 
          int count =0;
 
-        for(int i=0; i<follows.length;i++)
+        for(int i=0; i<fCount;i++)
         {
-            for(int j=0; j<other.getfCount();j++)
-            {
-                if (other.follows(this.follows[i])) {
+            String myf = follows[i];
+
+                if (other.follows(myf)) {
                     
                      count++;
                 }
-
-            }
 
         }
 

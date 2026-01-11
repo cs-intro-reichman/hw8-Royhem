@@ -54,7 +54,7 @@ public class Network {
         /// 
         /// 
         /// 
-            if (userCount>this.users.length)
+            if (userCount>=this.users.length|| getUser(name) != null)
             {
                 return false;
 
